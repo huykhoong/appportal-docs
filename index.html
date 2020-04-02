@@ -172,7 +172,7 @@
 
 
             <!-- requirement -->
-            <section id="requirement">
+            <section id="requirement" class="mt-5">
               <h2 class="section-title">Requirement <a data-scroll href="#requirement" class="anchor" data-toggle="tooltip" data-placement="top" title="Copy URL"></a></h2>
               <p>PHP App Portal has a few system requirements. All of these requirements are satisfied by our <a href="https://bit.ly/2QRZbL5" target="_blank">recommended hosting</a>, so it's highly recommended that you use this hosting.
 
@@ -193,12 +193,12 @@
 
 
             <!-- installation -->
-            <section id="installation">
+            <section id="installation" class="mt-5">
               <h2 class="section-title">Installation <a data-scroll href="#installation" class="anchor" data-toggle="tooltip" data-placement="top" title="Copy URL"></a></h2>
               <h4>All these steps has been recorded in the video below</h4>
               <ol>
                 <li>Extract .zip file downloaded from CodeCanyon. After extraction you will see 3 folders: "app", "update" and "documentation".</li>
-                <li>Connect to your FTP account and upload "app.zip" to your root directory (please do not upload to public folder, view picture below) then extract it here.</li>
+                <li>Connect to your FTP account and upload all files in "app" folder to your root directory (please do not upload to public folder, view picture below).</li>
                 <li>Rename "public_html" folder (you have uploaded) to the public folder name that determined by your hosting (e.g. httpdocs, public, www, htdocs).</li>
                 <li>Create a database and assign a database user for it.</li>
                 <li>Go to http://yourwebsite.com/install and fill out 3 forms, then you have done! </li>                
@@ -209,7 +209,7 @@
             </section>
             <!-- / installation -->
 
-            <section id="customize">
+            <section id="customize" class="mt-5">
               <h2 class="section-title">Customize your site</h2>
               <p>After installation, you will be redirected to admin dashboard, login with the credentials you fill in installation steps. You will find a menu in your left hand side and the Setting section is where you need to visit to customize your website, for faster discovery, let me describe all the menu structure for you:</p>
 
@@ -286,36 +286,54 @@
 
 
             <!-- Category & Platform-->
-            <section id="catandplat">
+            <section id="catandplat"  class="mt-5">
               <h2 class="section-title">Category & Platform <a data-scroll href="#catandplat" class="anchor" data-toggle="tooltip" data-placement="top" title="Copy URL"></a></h2>           
               <img src="images/1.jpg">
               <p>PHP APP Portal separate application into two types, application and game, the categories also. Both have the same structure with:
-              	<ul>
-              		<li><b>Title</b> <span>The name of the category</span></li>
-              		<li><b>HTML Title (Prefix & Suffix)</b> <span>The name of the category that will be show in some place on the website, you can use html here so it can be decorated with icon, font-style, etc.</span></li>
-              		<li><b>Slug</b> <span>How the url looks like, example: House & Home will have the slug is house-home, this is good for SEO and user friendly.</span></li>
-              		<li><b>App type</b> <span>The type of application that will be show in Google Search Result (Image below), this is not available for game because there is only one type of game in SERP</span></li>
-              		<li><b>Order</b> <span>Display order, You can change this later by drag and drop in the listing</span></li>
-              	</ul>
+                <ul>
+                  <li><b>Title</b> <span>The name of the category</span></li>
+                  <li><b>HTML Title (Prefix & Suffix)</b> <span>The name of the category that will be show in some place on the website, you can use html here so it can be decorated with icon, font-style, etc.</span></li>
+                  <li><b>Slug</b> <span>How the url looks like, example: House & Home will have the slug is house-home, this is good for SEO and user friendly.</span></li>
+                  <li><b>App type</b> <span>The type of application that will be show in Google Search Result (Image below), this is not available for game because there is only one type of game in SERP</span></li>
+                  <li><b>Order</b> <span>Display order, You can change this later by drag and drop in the listing</span></li>
+                </ul>
               </p>
-              <img src="images/2.jpg">
+              <img src="images/2.jpg" style="display: block; margin-left: auto;">
               <hr>
               <p>Platform contains both game and application so there is only 1 page for Platforms, just like categories, one platform also have 4 field:
-				<ul>
-					<li><b>Title</b> Platform title (Ex: Android, Linux)</li>
-					<li><b>HTML Title (Prefix & Suffix)</b> HTML display for the title (Ex: prefix: <b>&lt;strong&gt;</b> and suffix: <b>&lt;/strong&gt;</b></li>
-					<li><b>Slug</b> Platform url will be displayed when browsing</li>
-					<li><b>Order</b> The order belongs other platforms, this can be changed later by drag n drop in the listing</li>
-				</ul>			
-				</p>
+        <ul>
+          <li><b>Title</b> Platform title (Ex: Android, Linux)</li>
+          <li><b>HTML Title (Prefix & Suffix)</b> HTML display for the title (Ex: prefix: <b>&lt;strong&gt;</b> and suffix: <b>&lt;/strong&gt;</b></li>
+          <li><b>Slug</b> Platform url will be displayed when browsing</li>
+          <li><b>Order</b> The order belongs other platforms, this can be changed later by drag n drop in the listing</li>
+        </ul> 
+              <img src="images/3.jpg" style="display: block; margin-left: auto;">   
+        </p>
             </section>
             <!-- / Category & Platform-->
 
 
             <!-- table -->
-            <section id="appngame">
-              <h2 class="section-title">Table <a data-scroll href="#appngame" class="anchor" data-toggle="tooltip" data-placement="top" title="Copy URL"></a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet adipisci non similique quia maxime molestias id, laboriosam cumque doloribus reprehenderit eaque minus quisquam eius a perferendis ut. Ipsum, dignissimos laboriosam.</p>
+            <section id="appngame" class="mt-5">
+              <h2 class="section-title">Application & Game <a data-scroll href="#appngame" class="anchor" data-toggle="tooltip" data-placement="top" title="Copy URL"></a></h2>
+              <p>Application and game have a same structure, they were separated into 2 so that site user can easily browsing the site, just like Google Store or Apple Store. This is also easier for you to manage site content. From Dashboard menu, you can navigate to listing application or game through <b>Application > All Applications</b> or <b>Games > All Games</b>. The listing page is friendly and easy to understand, you can sort and filter apps by time created, is featured or not, by platform or by category.    
+             <a href="images/4.jpg" target="_blank"> <img src="images/4.jpg" style="display: block; margin-left: auto;" class="mt-2"> </a>        
+              </p>
+              <p>To add new app (game), press "Add new App" Button on the top of the page (There is also 1 button at the bottom). One form will appear for you to fill:</p>
+              <ul>
+                <li><b>Title</b>: Title of the app</li>
+                <li><b>Slug</b>: How the app displayed in the address. example: http://yourwebsite.com/app/<b>android-things-toolkit</b></li>
+                <li><b>Icon</b>: Icon URL, you can upload your own by pressing <b>UPLOAD</b> button next to it or insert URL from elsewhere.</li>
+                <li><b>Category & Platform</b>: Select category and platform which the app is belong to</li>
+                <li><b>URL Link</b>: The url can be direct link (for download button), webpage (Visit link) or buy page (Buy now button)</li>
+                <li><b>Button type</b>: How button appear in single display app page, it could be DOWNLODAD, VISIT or BUY NOW</li>
+                <li><b>Author & Author link</b>: App or Game has a author or developer, put those name & webpage here</li>
+                <li><b>Filesize</b>: Size in Mb or Gb, if you do not fill in this field, <b>Unknow file size</b> will be displayed </li>
+                <li><b>Price</b>: Price of app, if the app is free put 0 here</li>
+                <li><b>Screenshot</b>: Screenshots of app, just like icon field, you can upload your own or put in URL, multi screenshots is available and separated by ";"</li>
+                <li><b>Short description & Description</b>: Short description will be display in listing page and meta tag, full description will be displayed in single app page. <b>Both support html</b></li>
+              </ul>
+             <a href="images/5.jpg" target="_blank"> <img src="images/5.jpg" style="display: block; margin-left: auto;" class="mt-2 border-info"> </a>   
               <div class="row">
                 <div class="col">
                   <table class="table table-striped boxed">
